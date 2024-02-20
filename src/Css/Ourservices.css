@@ -1,0 +1,67 @@
+.services-container{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: aquamarine; */
+}
+.heading-view{
+    justify-content: center;
+    /* align-items: center; */
+    margin: 20px auto 20px auto;
+    /* background-color: aqua; */
+    display: flex;
+    
+}
+.ourservices-view{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ourservices-card-view{
+    /* background-color: beige; */
+    width: 30%;
+    margin: 1%;
+    padding-left: 1%;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.readmore-view{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+.readmore{
+    font-size: 17px;
+}
+.arrowicon{
+    margin-left: 10px;
+    width: 30px;
+    margin-top: 5px;
+}
+.appdevicon{
+    margin: 7px 0 0 0;
+}
+.appicon{
+    margin: 3% 0 0 1%;
+    height: 21%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .ourservices-card-view{
+    /* background-color: beige; */
+    width: 44%;
+    margin: 2% 2% 1% 1%;
+    padding-left: 1%;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3);
+    } 
+}
+
+@media screen and (max-width: 430px) {
+    .ourservices-card-view{
+    /* background-color: beige; */
+    width: 90%;
+    margin: 4% 4% 1% 4%;
+    padding-left: 1%;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3);
+    } 
+}
