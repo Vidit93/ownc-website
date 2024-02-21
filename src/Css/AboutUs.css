@@ -1,0 +1,123 @@
+.heading-view {
+    margin: 5% 0 0 0;
+    font-size: 300%;
+    font-weight: 900;
+}
+
+.aboutus-view {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.animation-view {
+    width: 40%;
+    display: flex;
+}
+
+.aboutus-card-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.aboutus-card {
+    display: flex;
+    align-items: center;
+    margin: 2% 2% 1% 1%;
+    width: 40%;
+    background-color: aquamarine;
+    padding: 2%;
+}
+
+.content {
+    font-size: 170%;
+    margin-left: 5%;
+    font-weight: 500;
+}
+
+.prizeicon {
+    width: 18%;
+}
+
+.aboutus-content {
+    font-size: 150%;
+    margin-left: 4%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.aboutus-left {
+    width: 60%;
+}
+
+
+@media screen and (max-width: 1240px) {
+
+    .aboutus-content {
+        font-size: 130%;
+        margin-left: 4%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .content {
+        font-size: 120%;
+        margin-left: 5%;
+        font-weight: 500;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .aboutus-content {
+        font-size: 100%;
+        margin-left: 4%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .content {
+        font-size: 98%;
+        margin-left: 5%;
+        font-weight: 500;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .aboutus-view {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .animation-view {
+        width: 80%;
+        /* display: flex; */
+    }
+
+    .aboutus-card {
+        display: flex;
+        align-items: center;
+        margin: 2% -26% 5% -24%;
+        width: 120%;
+        background-color: aquamarine;
+        padding: 2%;
+    }
+
+    .aboutus-content {
+        font-size: 100%;
+        margin-left: -20%;
+        padding: 1%;
+        margin-bottom: 14%;
+        width: 150%;
+    }
+    .content {
+        font-size: 120%;
+        margin-left: 5%;
+        font-weight: 500;
+    }
+}
