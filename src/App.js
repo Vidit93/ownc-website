@@ -3,7 +3,8 @@ import AboutUs from "./Components/AboutUs"
 import Landingpage from "./Components/Landingpage"
 import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
-
+import CustomerReview from "./Components/CustomerReview"
+import OneStop from "./Components/OneStop"
 // import MyComponent from "./Components/try"
 
 export default function MyApp() {
@@ -13,6 +14,8 @@ export default function MyApp() {
       <Landingpage />
       <Ourservices />
       <AboutUs />
+      <OneStop />
+      <CustomerReview />
       <Footer />
     </div>
   );
