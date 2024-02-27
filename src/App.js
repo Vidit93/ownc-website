@@ -5,7 +5,6 @@ import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
 import CustomerReview from "./Components/CustomerReview"
 import OneStop from "./Components/OneStop"
-// import MyComponent from "./Components/try"
 
 export default function MyApp() {
   return (

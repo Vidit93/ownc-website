@@ -38,7 +38,7 @@ const DemoCarousel = () => {
     return (<>
         <div className='review-container'>
             <div className='heading-view'>Customers Reviews</div>
-            <Carousel showThumbs={false} interval={2000} showStatus={false} infiniteLoop={true} autoPlay={false} renderIndicator={null} renderArrowPrev={customArrowPrev}
+            <Carousel showThumbs={false} interval={2000} showStatus={false} infiniteLoop={true} autoPlay={true} renderIndicator={null} renderArrowPrev={customArrowPrev}
                 renderArrowNext={customArrowNext} className="custom-carousel">
                 <div className='review-card'>
                     <div className='review-card-image'><img src={avatar1} /></div>
