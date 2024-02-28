@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
 import CustomerReview from "./Components/CustomerReview"
 import OneStop from "./Components/OneStop"
+import Numbers from "./Components/Numbers"
 
 export default function MyApp() {
   return (
@@ -13,6 +14,7 @@ export default function MyApp() {
       <Landingpage />
       <Ourservices />
       <AboutUs />
+      <Numbers />
       <OneStop />
       <CustomerReview />
       <Footer />
