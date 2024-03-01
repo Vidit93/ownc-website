@@ -5,17 +5,23 @@ import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
 import CustomerReview from "./Components/CustomerReview"
 import OneStop from "./Components/OneStop"
+import Webservices from "./Screens/Webservices"
+import Appservices from "./Screens/Appservices"
+import Graphicservices from "./Screens/Graphicservices"
 
 export default function MyApp() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Landingpage />
       <Ourservices />
       <AboutUs />
       <OneStop />
       <CustomerReview />
-      <Footer />
+      <Footer /> */}
+      {/* <Webservices /> */}
+      {/* <Appservices /> */}
+      <Graphicservices />
     </div>
   );
 }
