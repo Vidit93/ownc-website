@@ -1,3 +1,6 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Homescreen from "./Screens/Homescreen"
 import Ourservices from "./Components/Ourservices"
 import AboutUs from "./Components/AboutUs"
 import Landingpage from "./Components/Landingpage"
@@ -9,6 +12,9 @@ import Numbers from "./Components/Numbers"
 import Webservices from "./Screens/Webservices"
 import Appservices from "./Screens/Appservices"
 import Graphicservices from "./Screens/Graphicservices"
+import Videoservices from "./Screens/Videoservices"
+import Contentservices from "./Screens/Contentservices"
+import ScrollToTop from './Components/ScrollTop';
 
 export default function MyApp() {
   return (
@@ -23,7 +29,21 @@ export default function MyApp() {
       <Footer /> */}
       {/* <Webservices /> */}
       {/* <Appservices /> */}
-      <Graphicservices />
+      {/* <Graphicservices /> */}
+      {/* <Videoservices /> */}
+      {/* <Contentservices /> */}
+      {/* <Homescreen /> */}
+      <Router>
+      <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Homescreen />} />
+          <Route path="/webservices" element={<Webservices />} />
+          <Route path="/appservices" element={<Appservices />} />
+          <Route path="/graphicservices" element={<Graphicservices />} />
+          <Route path="/videoservices" element={<Videoservices />} />
+          <Route path="/contentservices" element={<Contentservices />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

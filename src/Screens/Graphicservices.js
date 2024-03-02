@@ -1,4 +1,4 @@
-import '../Css/Appservices.css'
+import '../Css/Graphicservices.css'
 import graphic from '../Images/graphic.jpg'
 import graphic1 from '../Images/graphic1.jpg'
 import graphic2 from '../Images/graphic2.jpg'
