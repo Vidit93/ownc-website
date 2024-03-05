@@ -19,6 +19,9 @@ function Navbar() {
     function TermsConditions() {
         navigate(`/terms&conditions`)
     }
+    function ContactUs() {
+        navigate(`/ContactUs`)
+    }
 
     return (
         <nav className="navbar">
@@ -33,7 +36,7 @@ function Navbar() {
                 <li className="nav-item"><a href="#">About</a></li>
                 <li className="nav-item"><a href="#">Skills</a></li>
                 <li className="nav-item"><a href="#">Projects</a></li>
-                <li className="nav-item"><a href="#">Contact</a></li>
+                <li className="nav-item" onClick={ContactUs}><a href="#">Contact</a></li>
                 <li className="nav-item" onClick={Privacypolicy}><a href="#">Privacy Policy</a></li>
                 <li className="nav-item" onClick={TermsConditions}><a href="#">Terms&Conditions</a></li>
                 

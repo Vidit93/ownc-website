@@ -17,6 +17,7 @@ import Contentservices from "./Screens/Contentservices"
 import ScrollToTop from './Components/ScrollTop';
 import Privacypolicy from './Screens/Privacypolicy';
 import TermsConditions from './Screens/Terms&Conditions';
+import ContactUs from './Components/ContactUs';
 
 export default function MyApp() {
   return (
@@ -47,6 +48,7 @@ export default function MyApp() {
           <Route path="/contentservices" element={<Contentservices />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/terms&conditions" element={<TermsConditions />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Router>

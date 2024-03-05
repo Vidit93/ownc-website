@@ -1,0 +1,212 @@
+/* ContactUs.css */
+
+/* Global styles */
+
+/* Container */
+.Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top view */
+.top-view {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../Images/ContactUs.jpg');
+    background-size: cover;
+    /* opacity: 80%; */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.top-view h1 {
+    font-size: 3rem; /* Converted to rem */
+    font-weight: bold;
+}
+
+/* Middle view */
+.middle-view {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.middle-view h1 {
+    margin-bottom: 2rem;
+}
+
+/* Contact box */
+.contact-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+/* Cards */
+.cards {
+    width: calc(33.33% - 2rem);
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cards h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.cards p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Email and Whatsapp */
+.gamil,
+.whatsapp {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.gamil img,
+.whatsapp img {
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+/* Contact info */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info p {
+    margin: 0;
+    color: #333;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #666;
+}
+
+/* Bottom view */
+.bottom-view {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Map container */
+.map-container {
+    width: 45vw; /* Converted to percentage */
+    height: 450px; /* Adjust height as needed */
+    margin-right: 2vw; /* Converted to percentage */
+}
+
+/* Contact form container */
+.contact-form-container {
+    width: 45vw; /* Converted to percentage */
+    max-width: 500px; /* Set maximum width */
+    padding: 0 2vw; /* Converted to percentage */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 2vw; /* Converted to percentage */
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    width: 100%;
+    padding: 1rem; /* Converted to rem */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 1.5rem 2rem; /* Converted to rem */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries */
+
+/* Additional Media Query */
+@media screen and (max-width: 1240px) {
+    .Container {
+        padding: 0 2rem; /* Add padding to container */
+    }
+
+    .gamil,
+    .whatsapp {
+        flex-wrap: wrap; /* Allow wrapping of content */
+    }
+
+    .gamil img,
+    .whatsapp img {
+        margin-right: 0.5rem; /* Reduce margin between icon and text */
+    }
+
+    .gamil p,
+    .whatsapp p {
+        flex-basis: 100%; /* Make the paragraph take full width */
+        margin-top: 0.5rem; /* Add some space between paragraphs */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .cards {
+        width: calc(50% - 2rem); /* Adjust card width for smaller screens */
+    }
+
+    .map-container,
+    .contact-form-container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cards {
+        width: calc(100% - 2rem); /* Adjust card width for even smaller screens */
+    }
+
+    .map-container,
+    .contact-form-container {
+        width: 100%; /* Adjust container width for even smaller screens */
+        margin-right: 0; /* Remove margin for smaller screens */
+    }
+}
