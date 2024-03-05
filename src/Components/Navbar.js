@@ -13,6 +13,9 @@ function Navbar() {
     function Homescreen() {
         navigate(`/`)
     }
+    function Privacypolicy() {
+        navigate(`/privacypolicy`)
+    }
 
     return (
         <nav className="navbar">
@@ -28,6 +31,7 @@ function Navbar() {
                 <li className="nav-item"><a href="#">Skills</a></li>
                 <li className="nav-item"><a href="#">Projects</a></li>
                 <li className="nav-item"><a href="#">Contact</a></li>
+                <li className="nav-item" onClick={Privacypolicy}><a href="#">Privacy Policy</a></li>
                 
             </ul>
             

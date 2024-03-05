@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
 export default function Videoservices() {
     return (<>
-        {<Navbar />}
+        {/* {<Navbar />} */}
         <div className='videoservice-container'>
             <div className='img-container'><img src={video} className='videoimg' /></div>
             <div ><h1 className='heading1-view'>Video Editing</h1></div>
@@ -51,6 +51,6 @@ export default function Videoservices() {
             </div>
             <div className='tagline'>Ready to elevate your video content? Contact us today to discuss your project and take the first step towards creating impactful videos that resonate with your audience!</div>
         </div>
-        {<Footer />}
+        {/* {<Footer />} */}
     </>)
 }

@@ -10,14 +10,14 @@ import Numbers from "../Components/Numbers"
 export default function Homescreen() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Landingpage />
       <Ourservices />
       <AboutUs />
       <Numbers />
       <OneStop />
       <CustomerReview />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

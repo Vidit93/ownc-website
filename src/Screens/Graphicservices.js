@@ -6,7 +6,7 @@ import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
 export default function Graphicservices() {
     return (<>
-        {<Navbar />}
+        {/* {<Navbar />} */}
         <div className='graphicservice-container'>
             <div className='img-container'><img src={graphic} className='graphicimg' /></div>
             <div ><h1 className='heading1-view'>Graphic and Web Designing</h1></div>
@@ -53,6 +53,6 @@ export default function Graphicservices() {
             </div>
             <div className='tagline'>Elevate your brand with captivating graphic designs and Figma website creations. Contact us now to discuss your project and captivate your audience visually!</div>
         </div>
-        {<Footer />}
+        {/* {<Footer />} */}
     </>)
 }

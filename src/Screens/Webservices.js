@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
 export default function Webservices() {
     return (<>
-        {<Navbar />}
+        {/* {<Navbar />} */}
         <div className='webservice-container'>
             <div className='img-container'><img src={web} className='webimg' /></div>
             <div ><h1 className='heading1-view'>Web Development</h1></div>
@@ -56,6 +56,6 @@ export default function Webservices() {
             </div>
             <div className='tagline'>Ready to take your online presence to the next level? Contact us today to get started!</div>
         </div>
-        {<Footer />}
+        {/* {<Footer />} */}
     </>)
 }

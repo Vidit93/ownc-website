@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
 export default function Contentservices() {
     return (<>
-        {<Navbar />}
+        {/* {<Navbar />} */}
         <div className='contentservice-container'>
             <div className='img-container'><img src={content} className='contentimg' /></div>
             <div ><h1 className='heading1-view'>Content Writing</h1></div>
@@ -51,6 +51,6 @@ export default function Contentservices() {
             </div>
             <div className='tagline'>Ready to elevate your brand with compelling content? Contact us today to discuss your project and take the first step towards creating content that resonates with your audience and drives meaningful results!</div>
         </div>
-        {<Footer />}
+        {/* {<Footer />} */}
     </>)
 }

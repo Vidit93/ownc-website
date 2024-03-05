@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
 export default function Appservices() {
     return (<>
-        {<Navbar />}
+        {/* {<Navbar />} */}
         <div className='appservice-container'>
             <div className='img-container'><img src={app} className='appimg' /></div>
             <div ><h1 className='heading1-view'>App Development</h1></div>
@@ -55,6 +55,6 @@ export default function Appservices() {
             </div>
             <div className='tagline'>Ready to turn your app ideas into reality? Contact us today to discuss your project and take the first step towards app success!</div>
         </div>
-        {<Footer />}
+        {/* {<Footer />} */}
     </>)
 }

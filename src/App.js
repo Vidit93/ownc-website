@@ -15,26 +15,27 @@ import Graphicservices from "./Screens/Graphicservices"
 import Videoservices from "./Screens/Videoservices"
 import Contentservices from "./Screens/Contentservices"
 import ScrollToTop from './Components/ScrollTop';
+import Privacypolicy from './Screens/Privacypolicy';
 
 export default function MyApp() {
   return (
     <div>
-      {/* <Navbar />
-      <Landingpage />
+      {/* <Landingpage />
       <Ourservices />
       <AboutUs />
       <Numbers />
       <OneStop />
-      <CustomerReview />
-      <Footer /> */}
+    <CustomerReview /> */}
       {/* <Webservices /> */}
       {/* <Appservices /> */}
       {/* <Graphicservices /> */}
       {/* <Videoservices /> */}
       {/* <Contentservices /> */}
       {/* <Homescreen /> */}
+      {/* <Privacypolicy /> */}
       <Router>
-      <ScrollToTop />
+        <ScrollToTop />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Homescreen />} />
           <Route path="/webservices" element={<Webservices />} />
@@ -42,7 +43,9 @@ export default function MyApp() {
           <Route path="/graphicservices" element={<Graphicservices />} />
           <Route path="/videoservices" element={<Videoservices />} />
           <Route path="/contentservices" element={<Contentservices />} />
+          <Route path="/privacypolicy" element={<Privacypolicy />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
