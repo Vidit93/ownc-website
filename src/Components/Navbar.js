@@ -16,6 +16,9 @@ function Navbar() {
     function Privacypolicy() {
         navigate(`/privacypolicy`)
     }
+    function TermsConditions() {
+        navigate(`/terms&conditions`)
+    }
 
     return (
         <nav className="navbar">
@@ -32,6 +35,7 @@ function Navbar() {
                 <li className="nav-item"><a href="#">Projects</a></li>
                 <li className="nav-item"><a href="#">Contact</a></li>
                 <li className="nav-item" onClick={Privacypolicy}><a href="#">Privacy Policy</a></li>
+                <li className="nav-item" onClick={TermsConditions}><a href="#">Terms&Conditions</a></li>
                 
             </ul>
             

@@ -16,6 +16,7 @@ import Videoservices from "./Screens/Videoservices"
 import Contentservices from "./Screens/Contentservices"
 import ScrollToTop from './Components/ScrollTop';
 import Privacypolicy from './Screens/Privacypolicy';
+import TermsConditions from './Screens/Terms&Conditions';
 
 export default function MyApp() {
   return (
@@ -33,6 +34,7 @@ export default function MyApp() {
       {/* <Contentservices /> */}
       {/* <Homescreen /> */}
       {/* <Privacypolicy /> */}
+      {/* <TermsConditions /> */}
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -44,6 +46,7 @@ export default function MyApp() {
           <Route path="/videoservices" element={<Videoservices />} />
           <Route path="/contentservices" element={<Contentservices />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
+          <Route path="/terms&conditions" element={<TermsConditions />} />
         </Routes>
         <Footer />
       </Router>
