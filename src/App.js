@@ -18,6 +18,7 @@ import ScrollToTop from './Components/ScrollTop';
 import Privacypolicy from './Screens/Privacypolicy';
 import TermsConditions from './Screens/Terms&Conditions';
 import ContactUs from './Components/ContactUs';
+import TechCarousel from './Components/Technology';
 
 export default function MyApp() {
   return (
@@ -36,6 +37,7 @@ export default function MyApp() {
       {/* <Homescreen /> */}
       {/* <Privacypolicy /> */}
       {/* <TermsConditions /> */}
+      {/* <TechCarousel /> */}
       <Router>
         <ScrollToTop />
         <Navbar />
