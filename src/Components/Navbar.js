@@ -22,6 +22,9 @@ function Navbar() {
     function ContactUs() {
         navigate(`/ContactUs`)
     }
+    function AboutUs() {
+        navigate(`/aboutus`)
+    }
 
     return (
         <nav className="navbar">
@@ -33,7 +36,7 @@ function Navbar() {
             </button>
             <ul className={`nav-list ${isNavActive ? 'active' : ''}`} id="navList">
                 <li className="nav-item" onClick={Homescreen}><a href="">Home</a></li>
-                <li className="nav-item"><a href="#">About</a></li>
+                <li className="nav-item" onClick={AboutUs}><a href="">About</a></li>
                 <li className="nav-item"><a href="#">Skills</a></li>
                 <li className="nav-item"><a href="#">Projects</a></li>
                 <li className="nav-item" onClick={ContactUs}><a href="#">Contact</a></li>

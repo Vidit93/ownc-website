@@ -19,6 +19,7 @@ import Privacypolicy from './Screens/Privacypolicy';
 import TermsConditions from './Screens/Terms&Conditions';
 import ContactUs from './Components/ContactUs';
 import TechCarousel from './Components/Technology';
+import Aboutus from "./Screens/Aboutus"
 
 export default function MyApp() {
   return (
@@ -36,8 +37,6 @@ export default function MyApp() {
       {/* <Contentservices /> */}
       {/* <Homescreen /> */}
       {/* <Privacypolicy /> */}
-      {/* <TermsConditions /> */}
-      {/* <TechCarousel /> */}
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -51,9 +50,12 @@ export default function MyApp() {
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/terms&conditions" element={<TermsConditions />} />
           <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/aboutus" element={<Aboutus />} />
         </Routes>
         <Footer />
       </Router>
+
+      {/* < Aboutus /> */}
     </div>
   );
 }
